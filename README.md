@@ -5,7 +5,7 @@ Sample of work with Redis (Docker) image by redisson based on
 docker pull redis
 docker run --name my-first-redis -d -p 6379:6379 redis
 
-<B>for access to bash</B>
+<h1>for access to bash</h1><br/>
 docker exec -it my-first-redis sh
 
 for access to redis cli
